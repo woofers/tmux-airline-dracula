@@ -1,15 +1,19 @@
-# tmux-airline-dracula
+# tmux-airline-wracula
 
 A tmux theme for Dracula color scheme.
 
-![Screenshot](https://raw.githubusercontent.com/sei40kr/tmux-airline-dracula/master/screenshot.png)
+tmux-airline-dracula
+https://github.com/sei40kr/tmux-airline-dracula
+by sei40kr
+
+![img](./screenshots/tmux.png "Tmux using usings splits and a custom theme")
 
 ## Installation
 
 1. Install using tpm.
 
     ```tmux
-    set -g @plugin 'sei40kr/tmux-airline-dracula'
+    set -g @plugin 'woofers/tmux-airline-wracula'
     ```
 
 ## Manual Installation
@@ -17,12 +21,11 @@ A tmux theme for Dracula color scheme.
 1. Clone this repository.
 
     ```sh
-    git clone --depth=1 https://github.com/sei40kr/tmux-airline-dracula.git
+    git clone --depth=1 https://github.com/woofers/tmux-airline-wracula.git
     ```
 
 1. Add following to your `.tmux.conf`.
 
     ```tmux
-    run-shell '. /path/to/tmux-airline-dracula/airline-dracula.tmux'
+    run-shell '. /path/to/tmux-airline-wracula/airline-wracula.tmux'
     ```
-
