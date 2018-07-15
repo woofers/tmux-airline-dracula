@@ -1,10 +1,6 @@
 # tmux-airline-wracula
 
-A tmux theme for Dracula color scheme.
-
-tmux-airline-dracula
-https://github.com/sei40kr/tmux-airline-dracula
-by sei40kr
+A tmux theme based on [tmux-airline-dracula](https://github.com/sei40kr/tmux-airline-dracula).
 
 ![img](./screenshots/tmux.png "Tmux using usings splits and a custom theme")
 
