@@ -32,7 +32,7 @@ main() {
     tmux set-option -g message-command-fg "${white}"
     tmux set-option -g status-left " #I  "
     tmux set-option -g status-left-style "fg=${white},bg=${orange},bold"
-    tmux set-option -g status-right "${left_sep}#[bg=${white},reverse] #{spotify_artist} - #{spotify_song} ${left_alt_sep} #H @ %d %b %Y "
+    tmux set-option -g status-right "${left_sep}#[bg=${white},reverse] $(music --status) ${left_alt_sep} #H @ %d %b %Y "
     tmux set-option -g status-right-style "fg=${red},bg=${orange}"
     tmux set-window-option -g window-status-activity-style "fg=${white},bg=${gray}"
     tmux set-window-option -g window-status-separator ''
